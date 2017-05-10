@@ -10,9 +10,68 @@
 
     <title><%= title %></title>
     <link rel='stylesheet' href='/stylesheets/style.css' />
+
+    <!-- Custom Google Web Font -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<!--<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet"> -->
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Arvo:400,700' rel='stylesheet' type='text/css'>
+        
+    <!-- Bootstrap CDN -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <!-- Custom CSS-->
+    <link href="/stylesheets/general.css" rel="stylesheet">
+        
+    <!-- Owl-Carousel -->
+    <link href="/stylesheets/custom.css" rel="stylesheet">
+    <link href="/stylesheets/owl.carousel.css" rel="stylesheet">
+    <link href="/stylesheets/owl.theme.css" rel="stylesheet">
+    <link href="/stylesheets/style.css" rel="stylesheet">
+    <link href="/stylesheets/animate.css" rel="stylesheet">
+        
+    <!-- Magnific Popup core CSS file -->
+    <link rel="stylesheet" href="/stylesheets/magnific-popup.css"> 
+
+
+    <!-- JavaScript -->
+    <script src="/javascripts/modernizr-2.8.3.min.js"></script>  <!-- Modernizr /-->
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script src="js/script.js"></script>
+    <!-- StikyMenu -->
+    <script src="js/stickUp.min.js"></script>
+    <script type="text/javascript">
+      jQuery(function($) {
+        $(document).ready( function() {
+          $('.navbar-default').stickUp();
+          });
+        });
+    </script>
+    <!-- Smoothscroll -->
+    <script type="text/javascript" src="js/jquery.corner.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+    <script src="js/classie.js"></script>
+    <script src="js/uiMorphingButton_inflow.js"></script>
+    <!-- Magnific Popup core JS file -->
+    <script src="js/jquery.magnific-popup.js"></script>
+    <!-- /JavaScript -->
+
   </head>
-  <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
+  <body id="home">
+    <div id="preloader">
+      <div id="status"></div>
+    </div>
+
+    <div class="intro-header"> 
+      <div class="col-xs-12 text-center abcen1">
+        <h1 class="h1_home wow hadeIn" data-wow-delay="0.4s"><%= title %></h1>
+        <p>Welcome to <%= title %></p>
+    </div>
   </body>
 </html>
