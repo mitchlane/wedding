@@ -28,7 +28,9 @@ body, html {
 	background-color: #34495e;
 	padding: 90px 0;
 }
-
+.special,.special .jumbotron {
+  height:100%;
+}
 .descp{
 	margin: 0;
 	padding: 0;
@@ -290,14 +292,19 @@ color: #ECEBEB;
 	letter-spacing: 1.5px;
 }
 
-.content-section-a {
-	background-color: #f8f8f8;
+.content-section-blue {
+	background-color: #5261E8;
 	padding: 90px 0; 
 }
 
-.content-section-b {
+.content-section-white {
 	border-top: 1px solid #e7e7e7;
 	border-bottom: 1px solid #e7e7e7;
+	padding: 90px 0; 
+}
+
+.content-section-green {
+	background-color: #54FF88;
 	padding: 90px 0; 
 }
 

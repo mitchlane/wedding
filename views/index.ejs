@@ -3,7 +3,8 @@
   <head>
     
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
     <meta name="description" content="Jordan and Mitch's Wedding Website">
     <meta name="author" content="Mitch Lane">
 
@@ -12,14 +13,24 @@
     <link rel='stylesheet' href='/stylesheets/style.css' />
 
     <!-- Custom Google Web Font -->
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-<!--<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet"> -->
-    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Arvo:400,700' rel='stylesheet' type='text/css'>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+          rel="stylesheet"
+          integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+          crossorigin="anonymous">
+    <!--<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet"> -->
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic'
+          rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Arvo:400,700'
+          rel='stylesheet' type='text/css'>
         
     <!-- Bootstrap CDN -->
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+          crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+            integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+            crossorigin="anonymous"></script>
 
     <!-- Custom CSS-->
     <link href="/stylesheets/general.css" rel="stylesheet">
@@ -45,48 +56,100 @@
     <!-- NavBar-->
       <nav class="navbar-default" role="navigation">
         <div class="container">
-          <div class="collapse navbar-collapse navbar-ex1-collapse">
-            <ul class="nav navbar-nav">
-              <li class="menuItem"><a href="#home">Home</a></li>
-              <li class="menuItem"><a href="#about">About</a></li>
-              <li class="menuItem"><a href="#registry">Registry</a></li>
-              <li class="menuItem"><a href="#rsvp">RSVP</a></li>
-              <li class="menuItem"><a href="#video">Video</a></li>
-            </ul>
+          <div class="navbar-header">
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+              <ul class="nav navbar-nav">
+                <li class="menuItem"><a href="#home">Home</a></li>
+                <li class="menuItem"><a href="#about">About</a></li>
+                <li class="menuItem"><a href="#registry">Registry</a></li>
+                <li class="menuItem"><a href="#rsvp">RSVP</a></li>
+                <li class="menuItem"><a href="#video">Video</a></li>
+              </ul>
+            </div>
           </div>
         </div>
       </nav> 
 
     <div class="intro-header"> 
       <div class="col-xs-12 text-center abcen1">
-        <h1 class="h1_home wow hadeIn" data-wow-delay="0.4s"><%= title %></h1>
+        <h1 class="h1_home wow fadeIn" data-wow-delay="0.4s"><%= title %></h1>
         <p>Welcome to <%= title %></p>
+      </div>
     </div>
-  </body>
-  <!-- JavaScript -->
-  <script src="/javascripts/modernizr-2.8.3.min.js"></script>  <!-- Modernizr /-->
-  <script src="/javascripts/jquery-1.10.2.js"></script>
-  <script src="/javascripts/bootstrap.js"></script>
-  <script src="/javascripts/owl.carousel.js"></script>
-  <script src="/javascripts/script.js"></script>
-  <!-- StikyMenu -->
-  <script src="/javascripts/stickUp.min.js"></script>
-  <script type="text/javascript">
-    jQuery(function($) {
-      $(document).ready( function() {
-        $('.navbar-default').stickUp();
+
+    <!-- About -->
+    <div id="about" class="content-section-blue special">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 wow pull-right fadeInRightBig">
+            <img class="img-responsive" src="img/ipad.png" alt="">
+          </div>
+          <div class="col-sm-6 wow fadeInLeftBig"data-animation-delay="200">
+            <h3 class="section-heading">
+              Hello, welcome to Mitch&Jordan get hitched!
+            </h3>
+            <p class="lead">
+              ** Jordan needs to write the about us here** We are awesome blah blah
+              ** Jordan needs to write the about us here** We are awesome blah blah
+              ** Jordan needs to write the about us here** We are awesome blah blah
+              ** Jordan needs to write the about us here** We are awesome blah blah
+              ** Jordan needs to write the about us here** We are awesome blah blah
+              ** Jordan needs to write the about us here** We are awesome blah blah
+              ** Jordan needs to write the about us here** We are awesome blah blah
+              ** Jordan needs to write the about us here** We are awesome blah blah
+              ** Jordan needs to write the about us here** We are awesome blah blah
+              ** Jordan needs to write the about us here** We are awesome blah blah
+              ** Jordan needs to write the about us here** We are awesome blah blah
+              ** Jordan needs to write the about us here** We are awesome blah blah
+              ** Jordan needs to write the about us here** We are awesome blah blah
+              ** Jordan needs to write the about us here** We are awesome blah blah
+              ** Jordan needs to write the about us here** We are awesome blah blah
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Registry -->
+    <div id="registry" class="content-section-white special">
+      <div class="container">
+      </div>
+    </div>
+
+    <!-- RSVP -->
+    <div id="rsvp" class="content-section-green special">
+      <div class="container">
+      </div>
+    </div>
+
+    <!-- Video -->
+    <div id="video" class="content-section-blue special">
+    </div>
+    <!-- JavaScript -->
+    <script src="/javascripts/modernizr-2.8.3.min.js"></script>  <!-- Modernizr /-->
+    <script src="/javascripts/jquery-1.10.2.js"></script>
+    <script src="/javascripts/bootstrap.js"></script>
+    <script src="/javascripts/owl.carousel.js"></script>
+    <script src="/javascripts/script.js"></script>
+    <!-- StikyMenu -->
+    <script src="/javascripts/stickUp.min.js"></script>
+    <script type="text/javascript">
+      jQuery(function($) {
+        $(document).ready( function() {
+          $('.navbar-default').stickUp();
         });
       });
-  </script>
-  <!-- Smoothscroll -->
-  <script type="text/javascript" src="/javascripts/jquery.corner.js"></script>
-  <script src="/javascripts/wow.min.js"></script>
-  <script>
-    new WOW().init();
-  </script>
-  <script src="/javascripts/classie.js"></script>
-  <script src="/javascripts/uiMorphingButton_inflow.js"></script>
-  <!-- Magnific Popup core JS file -->
-  <script src="/javascripts/jquery.magnific-popup.js"></script>
-  <!-- /JavaScript -->
+    </script>
+    <!-- Smoothscroll -->
+    <script type="text/javascript" src="/javascripts/jquery.corner.js"></script>
+    <script src="/javascripts/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+    <script src="/javascripts/classie.js"></script>
+    <script src="/javascripts/uiMorphingButton_inflow.js"></script>
+    <!-- Magnific Popup core JS file -->
+    <script src="/javascripts/jquery.magnific-popup.js"></script>
+    <!-- /JavaScript -->
+  </body>
 </html>
